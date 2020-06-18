@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChattingRoom.exe" version="1.0.0.4" publicKeyToken="f1833ab5d66f2baa" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Thesquid.ink-Free-Flat-Sample-Owl.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChattingRoom" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChattingRoom.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+         如需變更 Windows 使用者帳戶控制層級，
+         請以下列其中一個項目取代 requestedExecutionLevel 節點。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        如需利用回溯相容性的檔案及登錄模擬，
+        請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChattingRoom.exe" size="359384">
+      <assemblyIdentity name="ChattingRoom" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qnMZl1I67NFrhf+KUu0ERMZHQQKfyTFLkvD4agQH0Wo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChattingRoom.exe.config" size="179">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cyB4UBlZjU+4g0i+yK5ibMlfg2b6RYBBWov0GTrQeto=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Thesquid.ink-Free-Flat-Sample-Owl.ico" size="172578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jZ7fUZr1znZLw3UCg+Iq/drA424iCbCHySYwDww9654=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GUGJQQV\Jack" issuerKeyHash="11a9218ed88e263651a808c972dc1e914ba6f44f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AutymtoOUFcKuQbDV54idjvZzxQ4y+SYgJksEZBNuSo=</DigestValue></Reference></SignedInfo><SignatureValue>paLnx1oCLToF/Ldl4+9C59RiR+mHv6cy8cu2xnbL+w/vICfgkc6rwLhwj0TF/2aBIYHPgc2z7iweL+Wgcd43E3sK/NpyBz2D4ipRxkgay54qwYLKyX7jUkQMiwSaLw4vGsmj4H77Su63hCU+b53xdNo4qHAHiRBuYv29Zs65nEg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>37/HlNv06i8cWy7+yc2e1Qx2Y3szij62JRM+ao8+fMgMsuiUPKLAOcXRxImFnxFAUuqyq5UC8BVWqth/+qhigcEZssxREgua4ydrL1CAS7/Gs74YsxhEkUqgRT0BtEA9zZN3vOLjPL7P2uUaD1Z5cDYRkrcISFi5+pIRtx9X34E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2ab94d90112c998098e4cb3814cfd93b76229e57c306b90a57500eda9a72eb02" Description="" Url=""><as:assemblyIdentity name="ChattingRoom.exe" version="1.0.0.4" publicKeyToken="f1833ab5d66f2baa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GUGJQQV\Jack</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8yRm4/tQnLM8S7FUSSbYyFg5ln8kqoys49GEmZCY0po=</DigestValue></Reference></SignedInfo><SignatureValue>KFcsssTzxpsCMB239cVqVz/kiYNihWZQUh7uv8LRJDiOVLqpU08YB3z8X8mcvNlEd6+l32HqhriupHBBgWZS3Oy1+gmQD5TP3tdGZ5BSneUbgzx0GSPScPa9673bHA/EWEhdDFeg16FH59cRhH6bzbaLmgAl6ANOaL4XHzcNTz0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>37/HlNv06i8cWy7+yc2e1Qx2Y3szij62JRM+ao8+fMgMsuiUPKLAOcXRxImFnxFAUuqyq5UC8BVWqth/+qhigcEZssxREgua4ydrL1CAS7/Gs74YsxhEkUqgRT0BtEA9zZN3vOLjPL7P2uUaD1Z5cDYRkrcISFi5+pIRtx9X34E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQbEURJGCSgLpLmdx9Nw1vCzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEcAVQBHAEoAUQBRAFYAXABKAGEAYwBrMB4XDTE5MDcyNjEyNDUxNloXDTIwMDcyNTE4NDUxNlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBHAFUARwBKAFEAUQBWAFwASgBhAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA37/HlNv06i8cWy7+yc2e1Qx2Y3szij62JRM+ao8+fMgMsuiUPKLAOcXRxImFnxFAUuqyq5UC8BVWqth/+qhigcEZssxREgua4ydrL1CAS7/Gs74YsxhEkUqgRT0BtEA9zZN3vOLjPL7P2uUaD1Z5cDYRkrcISFi5+pIRtx9X34ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQC8xE8WmDwWOw+aL66S8PgQ6bfmWrutc6QK17U2SLugf5c5Koio1i3azHsLIYUjFHNrLUmN7wF1bUemAYUDv/nN65QiPVmrkztgfvLaF7mrLU81fDE1fvk0hZ37WkskaM0rHkztKp6OVHFuBRLcxcveP7K175l8upXxGKvEGQYbeQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
