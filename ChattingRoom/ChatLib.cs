@@ -13,7 +13,7 @@ namespace ChattingRoom
 {
     public class ChatSetting
     {
-        public static string IP = "127.0.0.1";
+        public static string IP = "218.35.187.45";
         public static int Port = 25565;
     }
 
